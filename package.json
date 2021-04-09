@@ -1,0 +1,43 @@
+{
+  "name": "MapChallenge",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@mapbox/mapbox-sdk": "^0.12.1",
+    "@mapbox/polyline": "^1.1.1",
+    "@react-native-community/geolocation": "^2.0.2",
+    "@react-native-mapbox-gl/maps": "^8.2.0-beta1",
+    "react": "17.0.1",
+    "react-native": "0.64.0",
+    "react-native-dotenv": "^2.5.5",
+    "react-native-geocoding": "^0.5.0",
+    "react-native-geolocation-service": "^5.2.0",
+    "react-native-loading-spinner-overlay": "^2.0.0",
+    "react-native-vector-icons": "^8.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/runtime": "^7.13.10",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@testing-library/jest-native": "^4.0.1",
+    "@testing-library/react-native": "^7.2.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.23.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.65.2",
+    "react-test-renderer": "17.0.1"
+  },
+  "jest": {
+    "preset": "react-native",
+    "setupFiles": [
+      "jest/setup.js"
+    ]
+  }
+}
